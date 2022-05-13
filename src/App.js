@@ -17,7 +17,7 @@ export default function App() {
       <Background />
       <TextSection />
         <Canvas className="canvas">
-            <OrbitControls enableZoom={false}/>
+            <OrbitControls enableZoom={false} />
             <ambientLight intensity={0.5} />
             <directionalLight position={[-2, 5, 2]} intensity={1} />
             <Suspense fallback={null}>
@@ -25,7 +25,7 @@ export default function App() {
             </Suspense>
         </Canvas>
         <Canvas className="canvas">
-            <OrbitControls enableZoom={false}/>
+            <OrbitControls enableZoom={false} />
             <ambientLight intensity={0.5} />
             <directionalLight position={[-2, 5, 2]} intensity={1} />
             <Suspense fallback={null}>

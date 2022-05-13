@@ -3,9 +3,9 @@ import styled from "styled-components";
 export default function TextSection() {
   return (
     <Wrapper>
-      <Title>Three.js in React</Title>
+      <Title>Orange React</Title>
       <Description>
-        Bring your website to life with beautiful 3D objects
+        An interactive Website using React.js
       </Description>
     </Wrapper>
   );
